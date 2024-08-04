@@ -16,7 +16,7 @@ class _NavBarAndAppBarState extends State<NavBarAndAppBar> {
   int _selectedIndex = 0;
 
   final List<Widget> _body = [
-    const Home_tab(),
+     Home_tab(),
     const Search_tab(),
     const DecumentTab(),
   ];
